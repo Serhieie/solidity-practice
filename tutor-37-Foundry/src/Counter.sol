@@ -1,14 +1,30 @@
-// SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
 
 contract Counter {
-    uint256 public number;
+    uint public myNum;
+    address public owner;
 
-    function setNumber(uint256 newNumber) public {
-        number = newNumber;
+    event Inc(uint indexed number, address indexed initiator);
+
+     constructor(uint _initialNum){
+        myNum = _initialNum;
+        owner = msg.sender;
     }
 
-    function increment() public {
-        number++;
+    modifier onlyOwner(){
+        require(msg.sender == owner, "not an owner!");
+        _;
+    }
+
+    function increment() external onlyOwner{
+        myNum += 1;
+        emit Inc(myNum, msg.sender);
+    }
+
+
+    receive() external payable {
+
     }
 }
