@@ -1,0 +1,11 @@
+S O L I D 
+
+S- Single responsibility
+
+O- Open-closed principle
+
+L- Liskov substitution principle
+
+I- Interface sigregation principle
+
+D- Dependensy inversion
