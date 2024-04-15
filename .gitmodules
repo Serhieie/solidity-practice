@@ -4,3 +4,6 @@
 [submodule "tutor-55-Foundry-FuzzyTest/lib/forge-std"]
 	path = tutor-55-Foundry-FuzzyTest/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "tutor-60-NapSpec/lib/forge-std"]
+	path = tutor-60-NapSpec/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
