@@ -10,3 +10,6 @@
 [submodule "tutor-62-ERC3156/lib/forge-std"]
 	path = tutor-62-ERC3156/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "tutor-63-Forge-practice/lib/forge-std"]
+	path = tutor-63-Forge-practice/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
