@@ -13,3 +13,6 @@
 [submodule "tutor-63-Forge-practice/lib/forge-std"]
 	path = tutor-63-Forge-practice/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "tutor-65-Forge-nft/lib/forge-std"]
+	path = tutor-65-Forge-nft/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
