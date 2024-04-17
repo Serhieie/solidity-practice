@@ -16,3 +16,6 @@
 [submodule "tutor-65-Forge-nft/lib/forge-std"]
 	path = tutor-65-Forge-nft/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "tutor-66-ERC1155-Foundry/lib/forge-std"]
+	path = tutor-66-ERC1155-Foundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
